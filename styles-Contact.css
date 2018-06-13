@@ -1,0 +1,146 @@
+@font-face {
+    font-family: helveticamio;
+    src: url(AndersonGrotesk-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: helveticag;
+    src: url(Neutraface2Display-Titling.otf);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}   
+
+body {
+    background-color: #151515;
+    margin: 0;
+}
+
+
+#menu { 
+    text-align: right;
+    word-spacing: 40px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-right: 130px;
+    font-family: helveticamio;
+    color: #fff;
+}
+
+#nome {
+    position: fixed;
+    font-size: 50px;
+    font-family: helveticag;
+    margin-top: 15vh;
+    color: #fff;
+}
+
+#descrizione {
+    position: fixed;
+    font-size: 30px;
+    margin-top: -10vh;
+    font-family: helveticamio;
+    color: #fff;
+}
+
+.logo {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 8%;
+    bottom: 84%;
+}
+
+.primo, .secondo, .terzo {
+    position: relative;
+}
+
+.terzo::before {
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 85%;
+    background-color: #fff;
+}
+
+.primo::before, .primo::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 85%;
+    background-color: #fff;
+}
+
+.primo:after {
+    right: 0;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.primo:hover::before {
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.primo:hover::after {
+    background-color: transparent;
+    width: 100%;
+}
+
+.secondo::before, .secondo::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 85%;
+    background-color: #fff;
+}
+
+.secondo:after {
+    right: 0;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.secondo:hover::before {
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.secondo:hover::after {
+    background-color: transparent;
+    width: 100%;
+}
+
+
+
+#lavori {
+    font-family: helveticag;
+    margin-top: 85px;
+    margin-left: 20px; 
+}
+
+.linette {
+    position: relative;
+}
+
+.link {
+    font-size: 80px;
+    margin-left: 90px;
+
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 470px;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+
+
+
