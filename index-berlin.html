@@ -15,11 +15,7 @@
 
 <body>
 
-<div class="background"></div>
-<div class="background2"></div>
-<div class="background3"></div>
-<div class="background4"></div>
-<div class="background5"></div>
+
 
 <div id="menu">
 	<a class="primo" href="index.html">Work</a>
@@ -31,17 +27,36 @@
 <img class="ft" border="0" alt="W3Schools" src="logon1.png"  width="60" height="60">
 </a>
 </p> </div>
-<div id="lavori">
-	<p class="linette"><a id="mouse" class="link" href="index-berlin.html">BERLIN</a></p>	
-	<p class="linette"><a id="mouse2" class="link" href="">MATERA</a></p>
-	<p class="linette"><a id="mouse3" class="link" href="">VENICE</a></p>
-	<p class="linette"><a id="mouse4" class="link" href="">MEXICO</a></p>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <img src="immagini/berlino01.jpg" width="800" height="500">
+  <div class="text">Berlino01</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <img src="immagini/berlino02.jpg" width="800" height="500">
+  <div class="text">Berlino02</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+ 
 
 <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
-
 
 
 </body>

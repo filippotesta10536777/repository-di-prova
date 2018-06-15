@@ -18,6 +18,16 @@ body {
     margin: 0;
 }
 
+.ft:hover {
+    
+    transform: scale(1.1, 1.1);
+}
+
+.ft {
+   
+    
+    transition: color 0.4s ease-out, transform 0.4s ease-out;
+}
 
 #menu { 
     text-align: right;
@@ -33,14 +43,16 @@ body {
     position: fixed;
     font-size: 50px;
     font-family: helveticag;
-    margin-top: 15vh;
+    margin-top: 28vh;
+    margin-left: 18.5vh;
     color: #fff;
 }
 
 #descrizione {
     position: fixed;
     font-size: 30px;
-    margin-top: -10vh;
+    margin-top: 43vh;
+    margin-left: 18.5vh;
     font-family: helveticamio;
     color: #fff;
 }
@@ -141,6 +153,13 @@ body {
     background-color: white;
 }
 
+.polimi {
+    margin-top: 28vh;
+    display: block;
+    margin-left: 155vh;
+    transform: translate(-50%, 0);
+
+}
 
 
 

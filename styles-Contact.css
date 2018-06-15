@@ -142,5 +142,95 @@ body {
 }
 
 
+.main {
+    margin-left: 24vh;
+    margin-top: 20vh;
+}
+
+#contatti {
+    margin-left: 220px;
+    margin-top: 220px;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.fas {
+    font-weight: 600;
+    margin-right: 10px;
 
 
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.underline2 {
+    position: relative;
+    font-family: helveticamio;
+    font-size: 6vh;
+}
+
+.underline2::before, .underline2::after {
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 85%;
+    background-color: #fff;
+}
+
+.underline2:after {
+    right: 0;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.underline2:hover::before {
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.underline2:hover::after {
+    background-color: transparent;
+    width: 100%;
+}
+
+.social {
+    margin-left: 50.2vh;
+    font-size: 7.5vh;
+    word-spacing: 40px;
+    margin-top: 10vh;
+}
+
+.social i:hover {
+    
+    transform: scale(1.35, 1.35);
+}
+
+.social i {
+   
+    
+    transition: color 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.ft:hover {
+    
+    transform: scale(1.1, 1.1);
+}
+
+.ft {
+   
+    
+    transition: color 0.4s ease-out, transform 0.4s ease-out;
+}
