@@ -38,6 +38,32 @@ jQuery('.background4').removeClass('show');
 });
 
 
+//foto 5
+jQuery('#mouse5').hover(function() {
+
+jQuery('.background5').addClass('show');
+})
+
+.mouseleave(function() {
+jQuery('.background5').removeClass('show');
+});
+
+
+//foto 6
+jQuery('#mouse6').hover(function() {
+
+jQuery('.background6').addClass('show');
+})
+
+.mouseleave(function() {
+jQuery('.background6').removeClass('show');
+});
+
+
+
+
+
+
 
 var slideIndex = 1;
 showSlides(slideIndex);

@@ -80,7 +80,34 @@ body {
     opacity: 0;
 }
 
-.background.show, .background2.show, .background3.show, .background4.show {
+.background5 {
+    position: fixed;
+    z-index: 0;
+    background-image: url("immagini/07tigre2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+}
+
+.background6 {
+    position: fixed;
+    z-index: 0;
+    background-image: url("immagini/02rand2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: opacity 0.2s ease-in;
+    opacity: 0;
+}
+
+
+.background.show, .background2.show, .background3.show, .background4.show,  .background5.show,  .background6.show {
     opacity: 1;
 }
 
@@ -166,31 +193,33 @@ body {
 
 #lavori {
     font-family: helveticag;
-    margin-top: 85px;
+    margin-top: 75px;
+    margin-left: 20px; 
+    width: 55%;
+    
+}
+#lavori2 {
+    font-family: helveticag;
+    margin-top: 30px;
     margin-left: 20px; 
 }
-
 .linette {
     position: relative;
+    width: 49%;
+    display: inline-block;
 }
+
+.linette2 {
+    position: relative;
+    width: 90%
+}
+
 
 .link {
     font-size: 80px;
     margin-left: 90px;
 
 }
-
-.link::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 470px;
-    width: 100px;
-    height: 2px;
-    background-color: white;
-}
-
-
 
 
 /* Slideshow container */
@@ -244,7 +273,25 @@ body {
 
   font-family: helveticamio;
 }
+.numbertext2 {
+  color: rgb(80,70,120);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15.5%;
 
+  font-family: helveticamio;
+}
+
+.numbertext3 {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15.5%;
+
+  font-family: helveticamio;
+}
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -255,6 +302,9 @@ body {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+.puntini {
+    margin-top: 25px
 }
 
 .active, .dot:hover {
